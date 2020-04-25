@@ -58,7 +58,7 @@
                                 </div>
                                 <div class="card-body p-t-10">
                                     <h2 class="m-t-0 m-b-15"><i
-                                            class="mdi mdi-account-star text-success m-r-10"></i><b><?php echo number_format($TOTAL_SEMBUH);?></b>
+                                            class="mdi mdi-account-star text-success m-r-10"></i><b><?php echo ($TOTAL_SEMBUH);?></b>
                                     </h2>
                                     <p class="text-muted m-b-0 m-t-20"><b>Reported as of Today</b></p>
                                 </div>
@@ -72,7 +72,7 @@
                                 </div>
                                 <div class="card-body p-t-10">
                                     <h2 class="m-t-0 m-b-15"><i
-                                            class="mdi mdi-account-remove text-success m-r-10"></i><b><?php echo number_format($TOTAL_MENINGGAL);?></b>
+                                            class="mdi mdi-account-remove text-success m-r-10"></i><b><?php echo ($TOTAL_MENINGGAL);?></b>
                                     </h2>
                                     <p class="text-muted m-b-0 m-t-20"><b>Reported as of Today</b></p>
                                 </div>
